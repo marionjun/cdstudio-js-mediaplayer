@@ -45,20 +45,6 @@ function createEle(ele) {
 function append(parent, child) {
     return parent.append(child);
 }
- // creating track list
-// const ul = createEle('ul')
-// function createPlayList() {
-//     songList.forEach((song) => {
-//         let h3 = createEle('h3');
-//         let li = createEle('li');
-
-//         li.classList.add("track-item");
-//         h3.innerText = song.name;
-//         append(li,h3);
-//         append(ul,li)
-//     })
-//     append(musicbox, ul);
-// }
 
 let songIndex = 0;
 // preloaded song
